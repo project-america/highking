@@ -1,0 +1,72 @@
+
+.footer-main-container{
+    background-color:  #ECF3FF;
+    padding-bottom: 48px;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    padding-top: 117px;
+    padding-bottom: 131px;
+    background-color:  #ECF3FF;
+}
+.footer-inner-container{
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+color: #5D616F;
+width: 250px;
+padding-top: 16px;
+}
+.footer-icons{
+    display: flex;
+    padding-top: 48px;
+    gap: 0px 30px;
+}
+.footer-link-container{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.footer-link-header{
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+color: #05060A;
+padding-bottom: 20px;
+}
+.footer-link{
+    font-family: Poppins;
+font-size: 18px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: #5D616F;
+padding-bottom: 20px;
+
+}
+
+.footer-copyright{
+    text-align: center;
+    font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0px;
+text-align: center;
+color:#5D616F;
+}

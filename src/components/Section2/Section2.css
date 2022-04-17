@@ -1,0 +1,50 @@
+.section2-container{
+    width: 100%;
+    height: auto;
+    background-color: #FBFEFF;
+    padding-top: 350px;
+    padding-bottom: 130px;
+}
+.section2-bg-container{
+    background-image: url('../../assects/images/section2-bg-img.png');
+    width: 100%;
+    height: 600px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 40px; */
+}
+.section2-bg-inner-container{
+    width: 75%;
+    /* height: 400px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.section2-content-container{
+width: 450px;
+margin-top: 61px;
+}
+.section2-content-header{
+    font-family: Poppins;
+font-size: 62px;
+font-weight: 600;
+line-height: 78px;
+letter-spacing: 0.01em;
+text-align: left;
+color: #05060A;
+width: 100%;
+
+}
+
+.section2-content-text{
+    font-family: Poppins;
+    width: 80%;
+font-size: 22px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: #5D616F;
+padding-bottom: 32px;
+}
