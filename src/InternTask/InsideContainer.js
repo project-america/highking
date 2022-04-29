@@ -1,11 +1,9 @@
-import React,{useState,useRef} from 'react'
+import React,{useState} from 'react'
 import './InternTask.css'
 import data from './InternData'
-console.log("data is",data)
-// const scrollToRef = (ref) => window.scrollTo(0, ref.current.offsetTop)   
+//console.log("data is",data)
 
 export default function InsideContainer(props) {
-    var myRef=useRef(null)
     
     // console.log("props is",props)
     const [EllapseButton,setEllapseButtton]=useState(true);
@@ -14,18 +12,13 @@ export default function InsideContainer(props) {
         setEllapseButtton(true);
     }
     function EllapseFalse(i){
-        scrollToRef(myRef+id)
-        // var id=document.getElementById("container"+i)
-        // window.scrollTo({
-        //     top:id.offsetTop,
-        //     behavior:"smooth"
-        // });
+        
         setEllapseButtton(false);
 
     }
   return (
     <div> 
-        <div className='basic' id={"contaner"+props.index} >
+        <div className='basic'  >
             {
                 EllapseButton===false?<div>
                     <div><button onClick={EllapseTrue}>↮</button></div>
@@ -46,7 +39,7 @@ export default function InsideContainer(props) {
                 props.props.replies===undefined?"":<div>
                     {
                         props.props.replies.map((l,i)=>{
-                            return (<InsideContainer props={l} index={i}/>)
+                            return (<InsideContainer props={l} }/>)
                         })
                     }
                 </div>
