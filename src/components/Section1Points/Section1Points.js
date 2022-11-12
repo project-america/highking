@@ -4,7 +4,7 @@ import LocationImg from '../../assects/icons/location.svg'
 export default class Section1Points extends Component {
   render() {
     return (
-      <div className='section1-points-container'>
+      <div className='section1-points-container' id="location">
           {/* <div> */}
              <div className='section1-points-card'>
                  <img src={LocationImg}></img>

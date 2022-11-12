@@ -61,3 +61,7 @@ color: #3E82FC;
     margin-top: -45px;
     margin-left: 24px;
 }
+
+.section1-contact-button{
+    cursor: pointer;
+}

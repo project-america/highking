@@ -49,7 +49,7 @@ export default class Section7 extends Component {
         ]
       };
     return (
-      <div style={{backgroundColor:' #FBFEFF'}}> 
+      <div style={{backgroundColor:' #FBFEFF'}} id='testimonials'> 
         <div style={{paddingBottom:100,backgroundColor:' #FBFEFF'}}>
         <div className='section7-container'>
             <div className='section7-content'>
