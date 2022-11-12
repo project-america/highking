@@ -39,7 +39,7 @@ export default function InsideContainer(props) {
                 props.props.replies===undefined?"":<div>
                     {
                         props.props.replies.map((l,i)=>{
-                            return (<InsideContainer props={l} }/>)
+                            return (<InsideContainer props={l} />)
                         })
                     }
                 </div>

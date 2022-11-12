@@ -11,7 +11,19 @@ import Section7 from "./components/Section7/Section7";
 import InternTask from "./InternTask/InternTask";
 
 function App() {
-    return <InterTask/> ;
+    return(
+        <div>
+        <Section1/>
+        <Section2/>
+        <Section3/>
+        <Section4/>
+        <Section5/>
+        <Section6/>
+        <Section7/>
+        <Footer/>
+        </div>
+    )
+    // return <InternTask/> ;
 }
 
 export default App;
