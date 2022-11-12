@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import './Navbar.css'
 import Logo from '../../assects/icons/logo.svg'
+import MenuIcon from '@mui/icons-material/Menu';
 export default class Navbar extends Component {
   render() {
     return (
@@ -16,6 +17,8 @@ export default class Navbar extends Component {
                        <div className='navbar-field'>Testimonials</div>
                        <div className='navbar-field'>Contact</div>
                    </div>
+                   <div  className='navbar-menu-icon' ><MenuIcon  sx={{fontSize:30}} /></div>
+                   
               </div>
           </div>
       </div>

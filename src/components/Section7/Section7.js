@@ -12,10 +12,41 @@ export default class Section7 extends Component {
         dots: true,
         infinite: true,
         speed: 500,
-        slidesToShow: 1.6,
+        slidesToShow:2.2,
         slidesToScroll: 1,
-        centerMode: true,
-        arrows:false
+        // centerMode: true,
+        arrows:false,
+        responsive:[
+          {
+            breakpoint:1500,
+            settings:{
+              slidesToShow:1.6,
+              // centerMode:true
+            }
+          },
+          {
+            breakpoint:1320,
+            settings:{
+              slidesToShow:1.6,
+              centerMode:false
+            }
+          },
+          {
+            breakpoint:1250,
+            settings:{
+              slidesToShow:1.5,
+            }
+
+          },
+          {
+            breakpoint:1100,
+            settings:{
+              slidesToShow:1,
+              centerMode:true
+            }
+
+          }
+        ]
       };
     return (
       <div style={{backgroundColor:' #FBFEFF'}}> 

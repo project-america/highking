@@ -15,7 +15,7 @@ export default class Section4 extends Component {
 
                      </div>
                      <div>
-                         <img src={Section4Img}></img>
+                         <img className='section4-img'  src={Section4Img}></img>
                      </div>
 
                     

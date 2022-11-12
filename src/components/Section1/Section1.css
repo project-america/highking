@@ -19,18 +19,15 @@
     /* flex-direction: column; */
 }
 .section1-inner-container{
-
-    
     width: 80%;
     height: auto;
-    margin-top: 100px;
-    /* justify-content: space-between; */
-    /* background-color: red; */
+    margin-top: 100px
 
 }
 .section1-inner1-container{
     display: flex;
-
+    gap:40px;
+    /* align-items: center; */
 }
 .section1-text1{
     width: 85%;
@@ -42,7 +39,6 @@
 }
 .section1-text2{
     font-size: 22px;
-    /* width: 10%; */
     font-weight: medium;
     font-family: Poppins;
     line-height: 150%;
@@ -50,6 +46,9 @@
 }
 .section1-buttons-container{
     margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 .section1-contact-button{
     height: 62px;
@@ -74,7 +73,7 @@ border-radius: 40px;
 padding: 10px, 40px, 10px, 40px;
 border: 1px solid #3E82FC;
 background:none;
-margin-left: 28px;
+/* margin-left: 28px; */
 color: #3E82FC;
 font-family: 'Poppins';
 font-style: normal;
@@ -101,4 +100,31 @@ margin-top: 76px;
 }
 .section1-last-subtext{
     color: red;
+}
+.section1-img{
+    width: auto;
+    /* height: 40vw; */
+
+}
+
+@media screen and (max-width:1450px) {
+    .section1-text1{
+        font-size: 60px;
+    }
+}
+@media screen and (max-width:1250px) {
+    .section1-text1{
+        font-size: 50px;
+    }
+    .section1-img{
+        height: 550px;
+    }
+}
+@media screen and (max-width:1150px) {
+    .section1-text1{
+        font-size: 40px;
+    }
+    .section1-img{
+        height: 550px;
+    }
 }

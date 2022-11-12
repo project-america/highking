@@ -9,7 +9,7 @@ export default class Section2 extends Component {
               <div className='section2-bg-container'>
                  <div className='section2-bg-inner-container'>
                      <div>
-                         <img src={Section2Img}></img>
+                         <img className='section2-img' src={Section2Img}></img>
                      </div>
 
                      <div className='section2-content-container'>

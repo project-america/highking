@@ -22,7 +22,7 @@ export default class Section1 extends Component {
                      </div>
                  </div>
                  <div>
-                     <img src={InnerImg}></img>
+                     <img className='section1-img' src={InnerImg}></img>
                  </div>
                 </div>
                 <div >

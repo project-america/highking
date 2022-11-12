@@ -1,7 +1,6 @@
 .navbar-container{
     width: 100%;
     height: 126px;
-    /* background-color: red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,9 +8,8 @@
 .navbar-inner-container{
         width: 80%;
         height: 60px;
-        /* background-color: white; */
         display: flex;
-    align-items: center;
+       align-items: center;
         justify-content: space-between;
 }
 .navbar-logo{
@@ -28,4 +26,16 @@ font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 180%;
+}
+.navbar-menu-icon{
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    .navbar-field{
+        display: none;
+    }
+    .navbar-menu-icon{
+        display: block;
+    }
 }
