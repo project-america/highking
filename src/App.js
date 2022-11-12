@@ -1,4 +1,6 @@
+import { Route, Routes } from "react-router-dom";
 import "./App.css";
+<<<<<<< HEAD
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 import Section1 from "./components/Section1/Section1";
@@ -23,6 +25,17 @@ function App() {
         <Section6/>
         <Section7/>
         <Footer/> */}
+=======
+import Home from "./pages/Home";
+import VideosPage from './pages/Video'
+function App() {
+    return(
+        <div>
+          <Routes>
+            <Route  path="/" element={<Home/>} ></Route>
+            <Route path="/videos" element={<VideosPage/>} ></Route>
+          </Routes>
+>>>>>>> 559ced5f4474eeb8e51d65cf1a73487b6267c0f5
         </div>
     )
     // return <InternTask/> ;
