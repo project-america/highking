@@ -14,7 +14,6 @@ export default class Section6 extends Component {
                       <input type="email" className='section6-input' placeholder='Enter your e-mail address'></input>
                       <div className='section6-button'>
                       <button className='section1-contact-button'> Subscribe</button>
-
                       </div>
                   </div>
                   <div className='section6-message'><img src={MessageIcon}></img></div>
