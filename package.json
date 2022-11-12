@@ -13,7 +13,11 @@
     "@testing-library/user-event": "^13.2.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+<<<<<<< HEAD
+    "react-player": "^2.11.0",
+=======
     "react-router-dom": "^6.4.3",
+>>>>>>> 559ced5f4474eeb8e51d65cf1a73487b6267c0f5
     "react-scripts": "5.0.1",
     "react-slick": "^0.29.0",
     "slick-carousel": "^1.8.1",
