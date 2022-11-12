@@ -9,7 +9,7 @@ export default class Section3 extends Component {
   render() {
     return (
       <div>
-          <div className='section3-container'>
+          <div className='section3-container' >
               <div className='section3-inner-container'>
                   <div>
                       <div className='section3-header-container'>

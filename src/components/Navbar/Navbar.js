@@ -12,10 +12,10 @@ export default class Navbar extends Component {
                         <div><img src={Logo}></img></div>
                    </div>
                    <div className='navbar-fields'>
-                       <div className='navbar-field'>Location</div>
-                       <div className='navbar-field'>Blogs</div>
-                       <div className='navbar-field'>Testimonials</div>
-                       <div className='navbar-field'>Contact</div>
+                       <a href='#location'> <div className='navbar-field'>Location</div></a>
+                       <a href='#blogs'> <div className='navbar-field'>Blogs</div></a>
+                       <a href='#testimonials'> <div className='navbar-field'>Testimonials</div></a>
+                       <a href='#contact'> <div className='navbar-field'>Contact</div></a>
                    </div>
                    <div  className='navbar-menu-icon' ><MenuIcon  sx={{fontSize:30}} /></div>
                    

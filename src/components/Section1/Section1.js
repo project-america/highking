@@ -18,7 +18,7 @@ export default class Section1 extends Component {
                      <div className='section1-text1'>Be prepared for the mountains and beyond.</div>
                      <div className='section1-text2'>Are you looking for amazing hiking <br></br>travel? Don’t worry! We got it for you!</div>
                      <div className='section1-buttons-container'>
-                         <button className='section1-contact-button'>Contact Us</button>
+                     <a href='#contact'>  <button className='section1-contact-button'>Contact Us</button></a>
                          <Link to="/videos" > <button className='section1-video-button'>Watch videos</button></Link>
                      </div>
                  </div>

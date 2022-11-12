@@ -16,9 +16,11 @@
     /* display: flex/; */
 }
 .navbar-fields{
+    
     width: 45%;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 .navbar-field{
     font-family: 'Poppins';
