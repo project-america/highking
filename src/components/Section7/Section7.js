@@ -69,7 +69,7 @@ export default class Section7 extends Component {
               <div className='section7-card-text2'>Happy Client</div>
              </div>
               </div>  
-        <div className='section7-card-text3'>“Everyone working in the office is very knowledgeable about all types of dental work and options for your individual needs.”</div>
+        <div className='section7-card-text3'>“Never follow someone else’s path unless you’re in the woods and you’re lost, and you see a path. By all means, you should follow that.” </div>
          <div className='section7-star-main-container'>
          <div className='section7-star-container'>
            <div><img src={StarImg}></img></div>
@@ -87,18 +87,18 @@ export default class Section7 extends Component {
           <div className='section7-card'>
              <div>
              <img src={ProfileImg}></img>
-              <div className='section7-card-text1'>Omar Gouse</div>
-              <div className='section7-card-text2'>Happy Client</div>
+              <div className='section7-card-text1'>Andria olivia</div>
+              <div className='section7-card-text2'>Satisfied Client</div>
              </div>
               </div>  
-        <div className='section7-card-text3'>“Everyone working in the office is very knowledgeable about all types of dental work and options for your individual needs.”</div>
+        <div className='section7-card-text3'>“Two roads diverged in a wood, and I — I took the one less traveled by, and that has made all the difference.”</div>
          <div className='section7-star-main-container'>
          <div className='section7-star-container'>
            <div><img src={StarImg}></img></div>
            <div><img src={StarImg}></img></div>
            <div><img src={StarImg}></img></div>
            <div><img src={StarImg}></img></div>
-           <div><img src={StarImg}></img></div>
+           {/* <div><img src={StarImg}></img></div> */}
          </div>
          </div>
         </div>
@@ -109,11 +109,11 @@ export default class Section7 extends Component {
           <div className='section7-card'>
              <div>
              <img src={ProfileImg}></img>
-              <div className='section7-card-text1'>Omar Gouse</div>
+              <div className='section7-card-text1'>Emma Watson</div>
               <div className='section7-card-text2'>Happy Client</div>
              </div>
               </div>  
-        <div className='section7-card-text3'>“Everyone working in the office is very knowledgeable about all types of dental work and options for your individual needs.”</div>
+        <div className='section7-card-text3'>“Me thinks that the moment my legs begin to move, my thoughts begin to flow.”</div>
          <div className='section7-star-main-container'>
          <div className='section7-star-container'>
            <div><img src={StarImg}></img></div>

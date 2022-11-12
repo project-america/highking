@@ -14,7 +14,7 @@ export default class section5 extends Component {
 
                      <div className='section5-content-container'>
                          <div className='section5-content-header'>Let’s Enjoy Nature With Us</div>
-                         <div className='section5-content-text'>Volunteer trail stewardship projects in America’s parks and forests designed specifically for college student groups and young professionals.</div>
+                         <div className='section5-content-text'> Volunteers are experts at identifying natural areas.With our expertise in identifying unique natural scenes, let's begin to appreciate nature together.</div>
                          <button className='section1-contact-button'>Learn More</button>
 
                      </div>
