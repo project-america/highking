@@ -24,8 +24,8 @@ import swal from 'sweetalert';
   const subscribeHere = () => { 
     if (email!="" && crctEmail==1){
       swal({
-        title: "Good job!",
-        text: "You subscribed to HighKing !",
+        title: "Yoo amigos!",
+        text: "You have subscribed to HighKing!",
         icon: "success",
         button: "Okay!",
       });
